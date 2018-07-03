@@ -5,7 +5,7 @@ import { CommonModule } from '@angular/common';
 import { LoginComponent } from './login/login.component';
 import { IndexComponent } from './index/index.component';
 
-// Ng Module
+// Ng Module Comments
 @NgModule({
   imports: [
     CommonModule
