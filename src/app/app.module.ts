@@ -3,14 +3,17 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
+import { AdminModule } from './admin/admin.module';
+
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AdminModule
   ],
   providers: [],
   bootstrap: [AppComponent]
